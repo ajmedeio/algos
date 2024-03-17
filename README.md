@@ -35,4 +35,4 @@ and testing the lambda in a way similar to its live runtime.
     source ~/.bash_profile
 
 ### Install dependencies <a name="deps"></a>
-    pdm run install
+    pdm install
