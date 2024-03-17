@@ -1,11 +1,6 @@
 # algos
 My algorithm studies
 
-## Pre-reqs
-- intellij
-- docker
-- git
-
 ## Instructions
 These instructions will take you through installation of necessary tools all the way to running the project, unit tests,
 and testing the lambda in a way similar to its live runtime.
