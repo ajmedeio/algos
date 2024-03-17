@@ -1,3 +1,4 @@
 .idea
 .pdm.toml
-__pypackages__
+*.iml
+.pdm-python

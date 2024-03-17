@@ -30,16 +30,9 @@ and testing the lambda in a way similar to its live runtime.
     pyenv local $(cat .python-version)
 
 ### Install PDM (Python Dependency Manager)<a name="3"></a>
-    pip install --user pdm==2.1.5
+    pip install --user pdm==2.12.4
     echo 'export PATH=$PATH:~/.local/bin' >> ~/.bash_profile
     source ~/.bash_profile
-    pdm config check_update false
-    pdm config python.use_venv false
-
-PDM (Python Dependency Manager) is a "modern" python package manager akin to npm for node.
-Specifically, it installs dependencies into a folder `__pypackages__` which is a python standard as of
-PEP-582 (still in draft). This is exciting because it eliminates the reliance on python virtual envs. You can read the
-PEP for the motivation of moving away from venvs in general.
 
 ### Install dependencies <a name="deps"></a>
     pdm run install
